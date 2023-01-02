@@ -1,0 +1,8 @@
+detectorModel:
+  minSize: 400
+  staticPredictions: False
+  confidenceThreshold: 0.9
+  predictionClassesPath: 'config/modelClasses.txt'
+  staticPredictionsConfig:
+    staticPredictionsInputPath: 'sampleImages/'
+    staticPredictionsOutputPath: 'outputImages/'
